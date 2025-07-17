@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free AI Tool Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="optin-container">
+      <div class="optin-left">
+        <img src="assets/images/hero-girl.png" alt="Productivity Hero" class="hero-img">
+      </div>
+      <div class="optin-right">
+        <img src="assets/images/logo.png" alt="Your Logo" class="logo"/>
+        <p class="badge">FREE GUIDE</p>
+        <h1>Struggling to Stay Productive with Too Many AI Tools?</h1>
+        <p class="subtext">Learn how to simplify your workflow and reclaim your time. Get our free eBook delivered instantly.</p>
+
+        <form id="leadForm" method="POST" class="optin-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <button type="submit">Get the Guide</button>
+        </form>
+
+        <div class="trusted">
+          <p>As seen on:</p>
+          <div class="logos">
+            <img src="assets/images/brand1.png" alt="Brand 1"/>
+            <img src="assets/images/brand2.png" alt="Brand 2"/>
+            <img src="assets/images/brand3.png" alt="Brand 3"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("leadForm");
+    const pathParts = window.location.pathname.split("/");
+    const slugIndex = pathParts.indexOf("funnels") + 1;
+    const slug = pathParts[slugIndex] || "default";
+    form.action = "/submit/" + slug;
+  </script>
+</body>
+</html>

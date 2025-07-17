@@ -1,0 +1,37 @@
+{
+  "seo-is-dead": {
+    "cheatsheet_image": "seo-is-dead.png",
+    "pdf": null,
+    "video_url": null,
+    "external_url": null,
+    "email_enabled": true
+  },
+  "broken-marketing-funnel": {
+    "cheatsheet_image": "broken-marketing-funnel.png",
+    "pdf": null,
+    "video_url": null,
+    "external_url": null,
+    "email_enabled": true
+  },
+  "overwhelmed-with-tasks": {
+    "cheatsheet_image": "overwhelmed-with-tasks.png",
+    "pdf": null,
+    "video_url": null,
+    "external_url": null,
+    "email_enabled": true
+  },
+  "social-post-burnout": {
+    "cheatsheet_image": "social-post-burnout.png",
+    "pdf": null,
+    "video_url": null,
+    "external_url": null,
+    "email_enabled": true
+  },
+  "tool-fatigue": {
+    "cheatsheet_image": "tool-fatigue.png",
+    "pdf": null,
+    "video_url": null,
+    "external_url": null,
+    "email_enabled": true
+  }
+}

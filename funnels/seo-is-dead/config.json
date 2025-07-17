@@ -1,0 +1,8 @@
+﻿{
+    "assets":  {
+                   "pdf":  "/cheatsheet_files/seo-guide.pdf",
+                   "video_url":  "https://youtube.com/watch?v=seo-demo",
+                   "external_link":  "https://tool.com/seo-landing",
+                   "image":  "/cheatsheet_images/seo-is-dead.png"
+               }
+}

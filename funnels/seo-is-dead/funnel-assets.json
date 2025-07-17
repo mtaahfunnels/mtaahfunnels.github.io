@@ -1,0 +1,8 @@
+{
+    "assets":  {
+                   "pdf":  "./assets/cheatsheets/seo-is-dead.pdf",
+                   "video_url":  "https://www.youtube.com/watch?v=seoisdead",
+                   "external_link":  "https://smartcontentline.com/tools/seo-is-dead",
+                   "image":  "./assets/images/hero-girl.png"
+               }
+}

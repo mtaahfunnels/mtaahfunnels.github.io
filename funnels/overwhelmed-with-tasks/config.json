@@ -1,0 +1,8 @@
+﻿{
+    "assets":  {
+                   "pdf":  "/cheatsheet_files/productivity-guide.pdf",
+                   "video_url":  "https://youtube.com/watch?v=overwhelmed-demo",
+                   "external_link":  "https://tool.com/overwhelmed",
+                   "image":  "/cheatsheet_images/overwhelmed-with-tasks.png"
+               }
+}

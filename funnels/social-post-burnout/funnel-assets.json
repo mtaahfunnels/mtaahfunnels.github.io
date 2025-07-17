@@ -1,0 +1,8 @@
+{
+    "assets":  {
+                   "pdf":  "./assets/cheatsheets/social-post-burnout.pdf",
+                   "video_url":  "https://www.youtube.com/watch?v=socialpostburnout",
+                   "external_link":  "https://smartcontentline.com/tools/social-post-burnout",
+                   "image":  "./assets/images/hero-girl.png"
+               }
+}

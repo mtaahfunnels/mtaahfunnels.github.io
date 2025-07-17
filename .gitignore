@@ -1,0 +1,26 @@
+# ENV and Secrets
+.env
+*.env
+test_credentials.py
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Logs and sensitive CSVs
+*.log
+leads.csv
+conversation_log.csv
+paused_leads.json
+
+# Node and build outputs
+node_modules/
+dist/
+
+# IDE and OS junk
+.vscode/
+.idea/
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini

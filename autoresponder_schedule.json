@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "Welcome to the Smart Content Line!",
+    "body": "Hi {{name}},\n\nThanks for signing up! You're about to unlock some serious AI power. Stay tuned!"
+  },
+  {
+    "subject": "Your First Smart Tool Tip",
+    "body": "Hey {{name}},\n\nDid you know our AI tools can save you 10+ hours a week?\nClick here to learn how."
+  },
+  {
+    "subject": "Still with us?",
+    "body": "Hi {{name}},\n\nWe’ve got something epic lined up tomorrow. Keep an eye on your inbox."
+  }
+]

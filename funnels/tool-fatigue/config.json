@@ -1,0 +1,8 @@
+﻿{
+    "assets":  {
+                   "pdf":  "/cheatsheet_files/tool-fatigue-guide.pdf",
+                   "video_url":  "https://youtube.com/watch?v=tool-fatigue",
+                   "external_link":  "https://tool.com/fatigue-fix",
+                   "image":  "/cheatsheet_images/tool-fatigue.png"
+               }
+}

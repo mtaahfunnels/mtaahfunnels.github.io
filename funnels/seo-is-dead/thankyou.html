@@ -1,0 +1,79 @@
+﻿<!-- File: thankyou.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thanks for Signing Up!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="thankyou-content">
+      <h1 id="thankyou-heading">Thank you!</h1>
+      <p id="subtext">Your guide is on its way to your inbox.</p>
+      <div id="asset-blocks" style="margin-top: 30px;"></div>
+    </div>
+  </div>
+
+  <script>
+    // ✅ Get query name param (optional)
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get("name") || "Friend";
+
+    // ✅ Set personalized text
+    document.getElementById("thankyou-heading").textContent = `Thank you, ${name}!`;
+    document.getElementById("subtext").textContent = `We've sent your guide to the email you provided, ${name}.`;
+
+    // ✅ Extract funnel slug from path
+    const slug = window.location.pathname.split("/").filter(p => p && p !== "funnels")[0] || "default";
+
+    // ✅ Fetch funnel-specific assets
+    fetch(`/api/funnel-assets/${slug}`)
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("asset-blocks");
+        const { image, pdf, video_url, external_link } = data;
+
+        if (image) {
+          const img = document.createElement("img");
+          img.src = image;
+          img.alt = "Guide Image";
+          img.style = "max-width:100%;margin-bottom:20px;border-radius:8px;";
+          container.appendChild(img);
+        }
+
+        if (pdf) {
+          const pdfLink = document.createElement("a");
+          pdfLink.href = pdf;
+          pdfLink.textContent = "📥 Download PDF Guide";
+          pdfLink.className = "cta-link";
+          pdfLink.target = "_blank";
+          container.appendChild(pdfLink);
+        }
+
+        if (video_url) {
+          const videoLink = document.createElement("a");
+          videoLink.href = video_url;
+          videoLink.textContent = "▶️ Watch the Demo";
+          videoLink.className = "cta-link";
+          videoLink.target = "_blank";
+          container.appendChild(videoLink);
+        }
+
+        if (external_link) {
+          const siteLink = document.createElement("a");
+          siteLink.href = external_link;
+          siteLink.textContent = "🌐 Visit Tool Website";
+          siteLink.className = "cta-link";
+          siteLink.target = "_blank";
+          container.appendChild(siteLink);
+        }
+      })
+      .catch(err => {
+        console.error("Error loading funnel assets:", err);
+      });
+  </script>
+</body>
+</html>

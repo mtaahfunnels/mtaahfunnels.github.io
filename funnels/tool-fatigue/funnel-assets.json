@@ -1,0 +1,8 @@
+{
+    "assets":  {
+                   "pdf":  "./assets/cheatsheets/tool-fatigue.pdf",
+                   "video_url":  "https://www.youtube.com/watch?v=toolfatigue",
+                   "external_link":  "https://smartcontentline.com/tools/tool-fatigue",
+                   "image":  "./assets/images/hero-girl.png"
+               }
+}

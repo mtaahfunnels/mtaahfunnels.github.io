@@ -1,0 +1,8 @@
+{
+    "assets":  {
+                   "pdf":  "./assets/cheatsheets/overwhelmed-with-tasks.pdf",
+                   "video_url":  "https://www.youtube.com/watch?v=overwhelmedwithtasks",
+                   "external_link":  "https://smartcontentline.com/tools/overwhelmed-with-tasks",
+                   "image":  "./assets/images/hero-girl.png"
+               }
+}

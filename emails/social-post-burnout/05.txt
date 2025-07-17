@@ -1,0 +1,1 @@
+﻿Subject: Build Once. Publish Forever.`n`nHi {{name}},`n`nThis guide shows how to create social content once and use it forever. Grab it now.

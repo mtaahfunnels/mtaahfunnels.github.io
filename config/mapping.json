@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "broken-marketing-funnel",
+    "prompt": "\"Turn the Tables: Transform Your Failing Marketing Funnel into a Lead-Generating Machine with High-Converting Funnel Builder\"",
+    "ebook_file": "lead_magnets/broken_marketing_funnel.pdf",
+    "cta_text": "Download your free guide to solve this now!",
+    "cta_url": "https://example.com/go/broken-marketing-funnel"
+  },
+  {
+    "slug": "overwhelmed-with-tasks",
+    "prompt": "\"Conquer Chaos: Mastering Your Daily Tasks with AI-Powered Automation\"",
+    "ebook_file": "lead_magnets/overwhelmed_with_tasks.pdf",
+    "cta_text": "Download your free guide to solve this now!",
+    "cta_url": "https://example.com/go/overwhelmed-with-tasks"
+  }
+]
